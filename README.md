@@ -10,3 +10,6 @@ Example State Data:
 
 Somewhat relevant video to get an idea of how things work (this was for a sprint update for a game design class):
 https://www.loom.com/share/b051fb77b8a141c3ac159c15e7541d73
+
+And then, here is a basic flow chart:
+![image](https://github.com/EmmyVoita/UnityFSMMovementSystem/assets/82542924/52a6ec04-fa4d-4388-927a-157fb91d78cc)
