@@ -5,3 +5,7 @@ Finite state machine (FSM) movement system for a player base in Unity. Designed 
 Utilizes scriptable objects for individual state data.
 ![image](https://github.com/EmmyVoita/UnityFSMMovementSystem/assets/82542924/4e1dcf6d-80c6-46da-96dc-4f1011356c6b)
 
+Example State Data:
+![image](https://github.com/EmmyVoita/UnityFSMMovementSystem/assets/82542924/4f44a6c8-ed10-4611-becc-5440822d34c8)
+
+
