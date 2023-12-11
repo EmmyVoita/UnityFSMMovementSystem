@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5706a64d186ced4d937f473e388bf5a, type: 3}
+  m_Name: SAD_2
+  m_EditorClassIdentifier: 
+  slideCooldown: 1
+  slideSpeed: 0.1
+  controlsLockoutTime: 0.4
+  slideDuration: 10
+  speedChangeRate: 10
+  speedOffset: 0.1
+  slideRotationSmoothTime: 1
+  maxAngle: 15
+  inputLockTime: 0.4
+  internalLockControlsTimer: 0
+  internalSlideCooldownTimer: 0
+  internalSlideTimer: 0
+  canSlide: 1
+  internalInputLockTimer: 0
+  canLock: 0

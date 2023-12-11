@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: abd116974d7f44e4d88cc7c9160aa4a1, type: 3}
+  m_Name: JAFD_1
+  m_EditorClassIdentifier: 
+  jumpHeight: 80
+  jumpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0.02961526
+      outSlope: 0.02961526
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.03892544
+    - serializedVersion: 3
+      time: 0.40435636
+      value: 0.8042722
+      inSlope: -1.0316049
+      outSlope: -1.0316049
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.0009766
+      value: -0.001159668
+      inSlope: -0.07515806
+      outSlope: -0.07515806
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.051509716
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  startforce: 3
+  gravity: -25
+  FallTimeout: 0.15
+  _terminalVelocity: 53
+  coyoteTime: 0.2
+  timer_CoyoteTime: 0
+  coyoteTimeActive: 0
+  state_CanStartCoyoteTime: 1
+  _fallTimeoutDelta: 0.15
+  jumpCooldown: 0.5
+  timer_CooldownJump: 0
+  canJump: 1
+  forceJumpDuration: 0.05
+  timer_ForceJump: 0
+  state_forceJump: 0
+  maxJumpDuration: 0.35
+  timer_ExtendJump: 0
+  state_ExtendJump: 0
+  updateSpeedWhileInAir: 1
+  speedUpdateMethod: 1
+  rotationSmoothTime: 0.4
+  targetSpeed: 0.1
+  targetSpeed_Input: 0
+  speedOffset: 0.1
+  speedChangeRate: 0.1

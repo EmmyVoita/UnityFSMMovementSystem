@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5706a64d186ced4d937f473e388bf5a, type: 3}
+  m_Name: SAD_1
+  m_EditorClassIdentifier: 
+  speedUpdateMethod: 0
+  baseSlideSpeed: 18
+  slideResourceCost: 0.5
+  useCustomGravity: 1
+  gravity: -10
+  currentMaxslideSpeed: 10.119929
+  maxGravityAdjustedSlideSpeed: 30
+  gravityAccelerateSpeedChangeRate: 5
+  speedChangeRate: 1.6
+  speedOffset: 0.1
+  slideRotationSmoothTime: 0.4
+  maxAngle: 10
+  slideCooldown: 0.46
+  timer_CooldownSlide: 0
+  canSlide: 1
+  slideDuration: 0.45
+  timer_IsSliding: 0
+  state_IsSliding: 0
+  inputLockTime: 0.15
+  timer_IsInputLocked: 0
+  state_IsInputLocked: 0
+  canLockInput: 1
+  state_movingDownSlope: 1
+  startRotation: 149.9515
