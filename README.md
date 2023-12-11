@@ -8,4 +8,5 @@ Utilizes scriptable objects for individual state data.
 Example State Data:
 ![image](https://github.com/EmmyVoita/UnityFSMMovementSystem/assets/82542924/4f44a6c8-ed10-4611-becc-5440822d34c8)
 
-
+Somewhat relevant video to get an idea of how things work (this was for a sprint update for a game design class):
+https://www.loom.com/share/b051fb77b8a141c3ac159c15e7541d73
