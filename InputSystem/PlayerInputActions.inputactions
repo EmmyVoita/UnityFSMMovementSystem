@@ -60,6 +60,15 @@
                     "initialStateCheck": false
                 },
                 {
+                    "name": "GroundSlam",
+                    "type": "Button",
+                    "id": "2ef435fb-4ea6-4f52-af4c-172442b05668",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
                     "name": "Primary",
                     "type": "Button",
                     "id": "1d9168a2-2458-474e-ac15-cd8748549bc5",
@@ -249,7 +258,7 @@
                 {
                     "name": "",
                     "id": "605062b3-cf11-4b71-8035-5d2074d88550",
-                    "path": "<Keyboard>/q",
+                    "path": "<Keyboard>/c",
                     "interactions": "",
                     "processors": "",
                     "groups": "KeyboardMouse",
@@ -276,6 +285,17 @@
                     "processors": "",
                     "groups": "KeyboardMouse",
                     "action": "Primary",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d408f97c-0931-487b-bf72-5cec1110de1c",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "GroundSlam",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

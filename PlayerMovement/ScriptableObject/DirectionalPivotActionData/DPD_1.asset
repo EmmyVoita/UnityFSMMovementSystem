@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6f4b60b50010cd4b8ba640dbc0578dc, type: 3}
+  m_Name: DPD_1
+  m_EditorClassIdentifier: 
+  speedUpdateMethod: 1
+  playerSpeed: 0
+  speedChangeRate: 10
+  speedOffset: 0.1
+  pivotThreshold: -0.5
+  maxLockoutTime: 0.6
+  minLockoutTime: 0.3
+  speedThreshold: 0.3
+  rotationSmoothTime: 0.2
+  rotationLockTime: 0.4
+  timer_IsRotationLocked: 0
+  state_IsRotationLocked: 0
+  speedFactor: 0.1
+  lockoutTime: 0.5103871
+  internalLockoutTimer: 0.0132358
+  initalDirection: {x: 0.019048408, y: -0.0033715682, z: 0.9998129}
